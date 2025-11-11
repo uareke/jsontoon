@@ -11,9 +11,6 @@
  * de volta para um array JS aninhado.
  */
 
-// --- Helpers de "Flattening" (Modificados da v3.0) ---
-// Estes helpers agora são "inteligentes" e ignoram arrays.
-
 /**
  * (Helper v4.0) Achata um objeto, mas IGNORA chaves que são arrays.
  * Ex: { a: 1, b: { c: 2 }, d: [...] } -> ['a', 'b.c']
